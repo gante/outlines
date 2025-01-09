@@ -62,7 +62,7 @@ image_urls = [
 ]
 description_generator = outlines.generate.text(model)
 description_generator(
-    "<image><image><image>What shapes are present?",
+    "<image><image>What shapes are present?",
     list(map(img_from_url, image_urls)),
 )
 ```
